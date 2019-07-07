@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api.Http</name>
+    </assembly>
+    <members>
+        <member name="M:Jewelry.JewelryController.Get">
+            <summary>
+            Get jewelery details
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
