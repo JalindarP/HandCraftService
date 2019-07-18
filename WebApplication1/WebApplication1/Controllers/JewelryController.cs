@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Contracts;
 
@@ -23,7 +24,7 @@ namespace Jewelry
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<JewelryItem>> Get()
         {
             var response = _jewelryRepository.GetItems();
             return Ok(response);
